@@ -1,0 +1,111 @@
+footer{
+    font-family: iran;
+    background-color: rgb(59, 66, 92);
+    text-align: center;
+
+    .footer-hr{
+        border: 1px solid rgb(230, 230, 230);
+        width:100%;
+        text-align: center;
+        display: block;
+      }
+      img{
+          display: block;
+          margin: auto;
+      }
+
+    h5{
+        color: white;
+        text-align: center;
+        -webkit-text-stroke: 1px #F8F8F8;
+        text-shadow: 0px 1px 4px #23430C;
+    }
+    #contact{
+        hr{
+            border: 1px solid rgb(230, 230, 230);
+        }
+        .list-group-item{
+            background-color: inherit;
+            color: white;
+            border: none;
+            margin: 10px 0;
+            
+        }
+        #address{
+            font-size: 14px;
+        }
+        .fas{
+            font-size: 20px;
+        }
+    
+       
+        .contact{
+            a{
+                text-decoration: none;
+                margin-right: 5px;
+                color: white;
+            }
+        }
+    }
+
+    
+    .list-group{
+        // hover
+        li:first-child:hover:before{
+            visibility: hidden;
+        }
+        
+        li{
+            position: relative;
+        }
+
+        li:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        right: 0;
+        background-color: #fff;
+        visibility: hidden;
+        transition: all 0.6s ease-in-out;
+        }
+        li:hover:before {
+            visibility: visible;
+            width: 90%;
+          }
+    }
+
+    .directory{
+        
+        .list-group-item {
+            margin-bottom: 0px;
+            background-color: inherit;
+            text-align: center;
+            border: none;
+            font-size: 14px;
+            color: rgb(2, 189, 244);
+            
+        }
+        .list-group-item:hover {
+            font-size: 15px;
+            color: rgb(154, 231, 254);
+            
+        }
+    }
+
+}
+
+
+
+// break points
+@media screen and (max-width: 647px){
+    footer{
+
+        #contact{
+            #address{
+                font-size: 13px;
+            }
+        }
+    }
+}

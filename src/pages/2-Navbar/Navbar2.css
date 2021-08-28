@@ -1,0 +1,140 @@
+#navbar2 {
+  background-color: #636f9c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#navbar2 .navbar-brand {
+  margin-left: 80px;
+}
+
+#navbar2 .navbar-brand img {
+  width: 80px;
+}
+
+#navbar2 .active {
+  background-color: silver;
+  border-radius: 8px;
+}
+
+#navbar2 .nav-link {
+  font-family: iran;
+  color: white;
+}
+
+#navbar2 a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+#navbar2 a:hover {
+  color: black;
+}
+
+#navbar2 a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #6666ff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#navbar2 a:hover::before {
+  transform: scaleX(1);
+}
+
+#navbar2 .nav-hover {
+  z-index: 1000;
+  font-family: iran;
+  text-align: right;
+  background-color: #636f9c;
+  padding: 16px 16px;
+}
+
+#navbar2 .nav-hover a {
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar2 .navbar-nav {
+    text-align: center;
+  }
+  #navbar2 .navbar-nav .nav-link {
+    font-size: 14px;
+    margin: 3px 0;
+  }
+  #navbar2 .navbar-toggler {
+    margin-left: 85%;
+  }
+  #navbar2 .navbar-toggler i {
+    font-size: 25px;
+    color: white;
+  }
+  #navbar2 .nav-hover {
+    font-family: iran;
+    background-color: rgba(99, 111, 156, 0.9);
+    font-size: 14px;
+  }
+  #navbar2 .nav-hover a:hover {
+    background-color: inherit;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #navbar2 .navbar-nav .nav-link {
+    font-size: 12px;
+    margin: 3px 0;
+  }
+  #navbar2 .nav-item {
+    position: relative;
+  }
+  #navbar2 .nav-item .nav-hover {
+    z-index: 1000;
+    font-family: iran;
+    font-size: 14px;
+    text-align: right;
+    display: none;
+    position: absolute;
+    background-color: #636f9c;
+    min-width: 210px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 16px 16px;
+  }
+  #navbar2 .nav-item .nav-hover a {
+    color: whitesmoke;
+  }
+  #navbar2 .nav-item .nav-link {
+    margin: 0 1px;
+  }
+  #navbar2 .nav-item:hover .nav-hover {
+    display: block;
+  }
+  #navbar2 .nav-hover .dropdown-item:hover {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #navbar2 {
+    height: 65px;
+  }
+  #navbar2 .navbar-nav .nav-link {
+    font-size: 14px;
+    margin: 0 2px;
+  }
+  #navbar2 li {
+    margin-right: 9px;
+  }
+}
+/*# sourceMappingURL=Navbar2.css.map */

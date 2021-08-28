@@ -1,0 +1,95 @@
+footer {
+  font-family: iran;
+  background-color: #3b425c;
+  text-align: center;
+}
+
+footer .footer-hr {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+}
+
+footer h5 {
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 1px 4px #23430C;
+}
+
+footer #contact hr {
+  border: 1px solid #e6e6e6;
+}
+
+footer #contact .list-group-item {
+  background-color: inherit;
+  color: white;
+  border: none;
+  margin: 10px 0;
+}
+
+footer #contact #address {
+  font-size: 14px;
+}
+
+footer #contact .fas {
+  font-size: 20px;
+}
+
+footer #contact .contact a {
+  text-decoration: none;
+  margin-right: 5px;
+  color: white;
+}
+
+footer .list-group li:first-child:hover:before {
+  visibility: hidden;
+}
+
+footer .list-group li {
+  position: relative;
+}
+
+footer .list-group li:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.6s ease-in-out;
+}
+
+footer .list-group li:hover:before {
+  visibility: visible;
+  width: 90%;
+}
+
+footer .directory .list-group-item {
+  margin-bottom: 0px;
+  background-color: inherit;
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  color: #02bdf4;
+}
+
+footer .directory .list-group-item:hover {
+  font-size: 15px;
+  color: #9ae7fe;
+}
+
+@media screen and (max-width: 647px) {
+  footer #contact #address {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

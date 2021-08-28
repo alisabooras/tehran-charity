@@ -1,0 +1,62 @@
+#map {
+  height: 900px;
+}
+
+#map .map-head {
+  margin-top: 70px;
+  z-index: 0;
+  display: block;
+  text-align: center;
+}
+
+#map .map-head iframe {
+  width: 70%;
+  height: 500px;
+  border: 0;
+}
+
+#map .list-group li {
+  font-family: iran;
+  font-size: 15px;
+  background-color: transparent;
+}
+
+#map .list-group li i {
+  font-size: 22px;
+  color: #262626;
+}
+
+#map .list-group li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 764px) {
+  #map {
+    height: 640px;
+  }
+  #map .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+  }
+  #map .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  #map .list-group {
+    position: relative;
+    bottom: 200px;
+  }
+  #map .list-group li {
+    font-size: 12px;
+    text-align: right;
+  }
+  #map .map-head {
+    margin-top: 70px;
+  }
+}
+/*# sourceMappingURL=ContactPage.css.map */

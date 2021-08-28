@@ -1,0 +1,144 @@
+$round: 50px;
+$bluish: #3366ff;
+$purplish: #ff33ff;
+
+
+@keyframes backChanger {
+    0%   {background-image: url('../pics/carousel1.jpg');}
+    50%  {background-image: url('../pics/carousel2.jpg');}
+    100% {background-image: url('../pics/carousel3.jpg');}
+}
+  
+.background{
+    background-image: url('../pics/carousel1.jpg');
+    height: 570px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: backChanger;
+    animation-duration: 25s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+    
+    .board{
+        
+        h3{
+            color: whitesmoke;
+            text-align: center;
+            font-family: iran;
+        }
+        img{
+            max-width: 140px;
+            max-height: 140px;
+            border-radius: 100px;
+            position: absolute;
+            left: 720px;
+            top: -9px;
+        }
+    }
+
+}
+// call btns
+.call{
+    
+    a{ 
+        border-radius: $round;
+        i{
+            color: $bluish
+        }
+    }
+    a:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        color: $purplish;
+        i{
+            color: $purplish
+        }
+    }
+
+    .btn-group{
+        button{
+            border-radius: $round;
+        }
+        .aparat{
+            width: 26px;
+        }
+        .instagram{
+            width: 26px;
+        }
+        button:hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+}
+
+// form
+.log{
+    margin-left: 110px;
+    
+}
+
+
+
+
+
+// break points
+@media screen and (max-width: 992px){
+    .board{
+        background-color:  rgba(102, 102, 255, .8);
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        padding: 26px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        h3{  
+            margin-right: 35px;
+            font-size: 18px;  
+            margin-bottom: 10px;
+        }
+        img{
+            display: none;
+        }
+         
+    }
+
+    .call{
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    // log
+    .log{
+        text-align:  center;
+        margin-top: 20px;
+        margin-left: -3px;
+    }
+}
+
+
+
+
+// laptop
+@media screen and (min-width: 992px){
+    .board{
+        background-color:  rgba(102, 102, 255, .8);
+        padding: 35px;
+        width: 850px;
+        border-bottom-right-radius: 350px;
+        border-top-right-radius: 350px;
+        h3{
+            font-size: 23px;  
+        }
+        img{
+            width: 200px;
+            height: 200px;  
+        }
+        
+    }
+
+}

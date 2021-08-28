@@ -1,0 +1,158 @@
+#navbar2{
+    background-color:  rgb(99, 111, 156);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    .navbar-brand{
+        margin-left: 80px;
+        img{
+            width: 80px;
+        }
+    }
+ 
+    .active{
+        background-color:  silver;
+        border-radius: 8px;
+      }
+    .nav-link{
+        font-family: iran;
+        color: white;
+    }
+
+
+    // animation
+    a {
+        position: relative;
+        color: #000;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color:  black;
+      }
+      
+      a::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #6666ff;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+      
+      a:hover::before {
+        transform: scaleX(1);
+      }
+
+      .nav-hover{
+        z-index: 1000;
+        font-family: iran;
+        text-align: right;
+        background-color: rgb(99, 111, 156);
+        padding: 16px 16px;
+        a{
+            color: whitesmoke;
+        }
+    }
+
+}
+
+
+
+@media  screen and (max-width:768px) {
+   #navbar2{
+        .navbar-nav{
+            text-align: center;
+            .nav-link{
+                font-size: 14px;
+                margin: 3px 0;
+            }
+        }
+        .navbar-toggler{
+            margin-left: 85%;
+
+            i{
+                font-size: 25px;
+                color: white;
+            }
+        }
+
+        .nav-hover{
+            font-family: iran;
+            background-color: rgba(99, 111, 156, .9);
+            font-size: 14px;
+            
+        }
+        .nav-hover a:hover{
+            background-color: inherit;
+            font-size: 15px;
+            color: black;
+        }
+   }
+}
+
+@media  screen and (min-width:768px){
+    #navbar2{
+        .navbar-nav{
+            .nav-link{
+                font-size: 12px;
+                margin: 3px 0;
+            }
+        }
+
+        // hover
+        .nav-item{
+            position: relative;
+            .nav-hover{
+                z-index: 1000;
+                font-family: iran;
+                font-size: 14px;
+                text-align: right;
+                display: none;
+                position: absolute;
+                background-color: rgb(99, 111, 156);
+                min-width: 210px;
+                border-radius: 20px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 16px 16px;
+                a{
+                    color: whitesmoke;
+                }
+            }
+            .nav-link{
+                margin: 0 1px;
+            }
+        }
+    .nav-item:hover{
+        .nav-hover{
+            display: block;
+           
+        }
+    }
+    .nav-hover .dropdown-item:hover{
+        color: black;
+    }
+    }
+}
+
+
+
+@media  screen and (min-width:1100px){
+   #navbar2{
+    .navbar-nav{
+        .nav-link{
+            font-size: 14px;
+           margin: 0 2px;
+        }
+    }
+        li{
+            margin-right: 9px;
+         }
+         height: 65px;
+    }
+}

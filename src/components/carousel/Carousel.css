@@ -1,0 +1,44 @@
+#carousel-1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.carousel {
+  height: 400px;
+}
+
+.carousel .carousel-indicators button {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #f2f2f2;
+}
+
+.carousel .carousel-indicators button.active {
+  background-color: green;
+}
+
+.carousel img {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+}
+
+.carousel .carousel-control-prev {
+  opacity: .1;
+}
+
+.carousel .carousel-control-next {
+  opacity: .1;
+}
+
+.carousel .carousel-control-prev:hover {
+  display: block;
+  opacity: 1;
+}
+
+.carousel .carousel-control-next:hover {
+  display: block;
+  opacity: 1;
+}
+/*# sourceMappingURL=Carousel.css.map */

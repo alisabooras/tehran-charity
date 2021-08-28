@@ -1,0 +1,333 @@
+.infoboard {
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  font-family: iran;
+  position: relative;
+}
+
+.infoboard #board-show {
+  background-color: whitesmoke;
+  width: 55%;
+  padding: 25px 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.infoboard #progress-show {
+  width: 75%;
+  border: 1px solid #66ff66;
+  border-radius: 20px;
+}
+
+.infoboard #progress-show .progress-bar {
+  width: 50%;
+}
+
+.infoboard .num-title {
+  margin-top: 15px;
+  width: 75%;
+}
+
+.infoboard .num-title .numbers {
+  font-size: 17px;
+  float: left;
+  clear: left;
+}
+
+.infoboard .num-title .titles {
+  font-size: 17px;
+  float: right;
+  clear: right;
+}
+
+.infoboard img {
+  position: absolute;
+  width: 190px;
+  left: 50%;
+  bottom: 19%;
+}
+
+.infoboard .conti-link {
+  color: white;
+  text-decoration: none;
+}
+
+.infoboard .help-btn-1 {
+  background-color: #336699;
+  color: white;
+  border-radius: 50px;
+  left: 65%;
+  bottom: 56%;
+}
+
+.infoboard .help-btn-2 {
+  border-radius: 50px;
+  left: 69%;
+  bottom: 35%;
+}
+
+.infoboard button {
+  position: absolute;
+}
+
+.infoboard button:active {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.hidden-line {
+  display: none;
+}
+
+.info-text {
+  margin-top: 30px;
+}
+
+.info-text div {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: whitesmoke;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  width: 80%;
+  font-size: 16px;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 647px) {
+  .infoboard {
+    background-color: whitesmoke;
+    background-image: none;
+    position: inherit;
+  }
+  .infoboard #board-show {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .infoboard #progress-show {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .infoboard .num-title {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .infoboard .num-title .numbers {
+    float: left;
+    font-size: 15px;
+  }
+  .infoboard .num-title .titles {
+    font-size: 15px;
+    float: right;
+  }
+  .infoboard .num-title br {
+    margin: 5px 0;
+  }
+  .infoboard img {
+    display: none;
+  }
+  .infoboard .help-btn-1 {
+    background-color: #336699;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .infoboard .help-btn-2 {
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .infoboard button {
+    position: inherit;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .hidden-line {
+    display: block;
+    border: 1px solid rgba(191, 191, 191, 0.5);
+    display: block;
+  }
+  .info-text {
+    margin-top: 0;
+  }
+  .info-text div {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 0;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 647px) {
+  .infoboard {
+    position: initial;
+  }
+  .infoboard #board-show {
+    width: 100%;
+    text-align: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .infoboard #progress-show {
+    width: 80%;
+    margin-left: 65px;
+  }
+  .infoboard .num-title {
+    margin-top: 15px;
+    margin-left: 65px;
+    width: 80%;
+  }
+  .infoboard .num-title .numbers {
+    font-size: 16px;
+  }
+  .infoboard .num-title .titles {
+    font-size: 16px;
+  }
+  .infoboard img {
+    display: none;
+  }
+  .infoboard .help-btn-1 {
+    margin-top: 20px;
+    width: 60%;
+  }
+  .infoboard .help-btn-2 {
+    margin-top: 20px;
+    width: 60%;
+  }
+  .infoboard button {
+    position: inherit;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .info-text {
+    margin-top: 0;
+  }
+  .info-text div {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 0;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .infoboard {
+    position: relative;
+  }
+  .infoboard #board-show {
+    width: 55%;
+    padding: 35px 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+  .infoboard #progress-show {
+    width: 75%;
+    border: 1px solid #66ff66;
+    border-radius: 20px;
+  }
+  .infoboard #progress-show .progress-bar {
+    width: 50%;
+  }
+  .infoboard .num-title {
+    margin-top: 15px;
+    width: 75%;
+  }
+  .infoboard .num-title .numbers {
+    font-size: 17px;
+  }
+  .infoboard .num-title .titles {
+    font-size: 17px;
+  }
+  .infoboard img {
+    position: absolute;
+    display: block;
+    width: 190px;
+    left: 50%;
+    bottom: 51%;
+  }
+  .infoboard .help-btn-1 {
+    left: 70%;
+    bottom: 72%;
+    width: 13.4375em;
+  }
+  .infoboard .help-btn-2 {
+    border-radius: 50px;
+    left: 75%;
+    bottom: 60%;
+    width: 7.5em;
+  }
+  .infoboard button {
+    position: absolute;
+    box-shadow: none;
+  }
+  .infoboard button:active {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+  .info-text {
+    margin-top: 30px;
+  }
+  .info-text div {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 80%;
+    font-size: 16px;
+    margin-left: 20%;
+    padding: 8px 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .infoboard {
+    position: relative;
+  }
+  .infoboard #board-show {
+    width: 55%;
+    padding: 35px 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+  }
+  .infoboard #progress-show {
+    width: 75%;
+    border: 1px solid #66ff66;
+    border-radius: 20px;
+  }
+  .infoboard #progress-show .progress-bar {
+    width: 50%;
+  }
+  .infoboard .num-title {
+    margin-top: 15px;
+    width: 75%;
+  }
+  .infoboard img {
+    position: absolute;
+    display: block;
+    width: 190px;
+    left: 50%;
+    bottom: 43%;
+  }
+  .infoboard .help-btn-1 {
+    left: 65%;
+    bottom: 67%;
+    width: 13.4375em;
+  }
+  .infoboard .help-btn-2 {
+    border-radius: 50px;
+    left: 68%;
+    bottom: 52%;
+    width: 7.5em;
+  }
+  .infoboard button {
+    position: absolute;
+    box-shadow: none;
+  }
+  .infoboard button:active {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+}
+/*# sourceMappingURL=Infoboard.css.map */

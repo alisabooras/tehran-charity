@@ -1,0 +1,136 @@
+.progress-menu {
+  background-color: #999999;
+  height: 155px;
+  padding: 30px 15px;
+}
+
+.progress-menu #progess-donation {
+  width: 90%;
+}
+
+.progress-menu #progess-donation #progess-donation-line {
+  width: 50%;
+}
+
+.progress-menu .btn-help1, .progress-menu .btn-help2 {
+  border-radius: 50px;
+  font-family: iran;
+}
+
+.progress-menu .btn-help2 {
+  background-color: #336699;
+  color: whitesmoke;
+  margin-left: 8px;
+}
+
+.progress-menu .group-help {
+  float: right;
+  margin-top: 20px;
+}
+
+.progress-menu .group-help .btn-help3, .progress-menu .group-help .btn-help4 {
+  font-family: iran;
+}
+
+.progress-menu .group-help .btn-help3 {
+  background-color: #336699;
+  color: whitesmoke;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.progress-menu .group-help .btn-help4 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: whitesmoke;
+  color: #336699;
+}
+
+@media screen and (max-width: 680px) {
+  .progress-menu {
+    text-align: center;
+    padding: 6px;
+  }
+  .progress-menu #progess-donation {
+    width: 100%;
+  }
+  .progress-menu .col-sm-4 {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .progress-menu .btn {
+    font-size: 14px;
+  }
+  .progress-menu .group-help {
+    clear: both;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .progress-menu {
+    padding: 6px;
+    text-align: center;
+  }
+  .progress-menu #progess-donation {
+    width: 100%;
+    margin-left: 100px;
+  }
+  .progress-menu .col-sm-4 {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .progress-menu .group-help {
+    float: none;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .progress-menu {
+    height: 170px;
+    padding: 10px;
+  }
+  .progress-menu #progess-donation {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .progress-menu #progess-donation #progess-donation-line {
+    width: 50%;
+  }
+  .progress-menu .btn-help1, .progress-menu .btn-help2 {
+    margin-top: 5px;
+  }
+  .progress-menu .btn-help2 {
+    margin-left: 8px;
+  }
+  .progress-menu .group-help {
+    float: none;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .progress-menu {
+    height: 160px;
+    padding: 30px 15px;
+  }
+  .progress-menu #progess-donation {
+    width: 100%;
+  }
+  .progress-menu #progess-donation #progess-donation-line {
+    width: 50%;
+  }
+  .progress-menu .btn-help1, .progress-menu .btn-help2 {
+    margin-left: 10%;
+    margin-bottom: 0;
+  }
+  .progress-menu .btn-help2 {
+    margin-left: 5px;
+  }
+  .progress-menu .group-help {
+    float: right;
+    margin-top: 14px;
+  }
+}
+/*# sourceMappingURL=Progress.css.map */

@@ -1,0 +1,44 @@
+#list-todos {
+  padding: 6px;
+  font-family: iran;
+}
+
+#list-todos li {
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#list-todos li span {
+  margin: 8px 0;
+}
+
+#list-todos .help-data {
+  font-size: 18px;
+  border-bottom: 1px solid grey;
+}
+
+#list-todos .fa-times {
+  width: 18%;
+  text-align: right;
+  font-size: 22px;
+  color: tomato;
+  cursor: pointer;
+}
+
+#list-todos #circle-show {
+  text-align: left;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+#list-todos #hidden-name {
+  position: absolute;
+  top: 0;
+  color: #002266;
+}
+/*# sourceMappingURL=List.css.map */

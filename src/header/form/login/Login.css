@@ -1,0 +1,32 @@
+.login {
+  border-radius: 50px;
+  font-family: iran;
+}
+
+.modal .modal-2 {
+  background-color: #ffff66;
+}
+
+.modal .btn-close {
+  text-align: left;
+}
+
+.modal h5 {
+  font-family: iran;
+}
+
+.modal label {
+  font-family: iran;
+}
+
+.modal .modal-footer {
+  font-family: iran;
+  display: block;
+  text-align: center;
+  display: block;
+}
+
+.modal .modal-footer button {
+  width: 150px;
+}
+/*# sourceMappingURL=Login.css.map */

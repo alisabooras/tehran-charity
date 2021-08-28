@@ -1,0 +1,93 @@
+body {
+  overflow-x: hidden;
+}
+
+#wrapper {
+  font-family: iran;
+  position: fixed;
+  text-align: center;
+  z-index: 1000;
+}
+
+#wrapper button {
+  background-color: transparent;
+  color: white;
+  font-size: 27px;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}
+
+#wrapper .navbar-nav {
+  margin-top: 83px;
+  background-color: #999999;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#wrapper .navbar-nav li {
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#wrapper .navbar-nav li a {
+  color: white;
+  font-size: 14px;
+}
+
+#wrapper .navbar-nav li:hover {
+  opacity: .9;
+}
+
+#wrapper .navbar-nav li:hover a {
+  font-size: 15px;
+}
+
+#wrapper .navbar-nav .dropdown-menu .dropdown-item {
+  background-color: #4d88ff;
+}
+
+#wrapper .navbar-nav .dropdown-menu li {
+  text-align: right;
+}
+
+#wrapper .navbar-nav .dropdown-menu li:hover a {
+  color: black;
+}
+
+@media screen and (max-width: 647px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 647px) {
+  #wrapper {
+    display: block;
+  }
+  #wrapper .navbar-nav {
+    margin-top: 12%;
+  }
+  #wrapper .navbar-nav li {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  #wrapper {
+    display: block;
+  }
+}
+
+/*  laptop */
+@media screen and (min-width: 1150px) {
+  #wrapper {
+    display: none;
+  }
+}
+/*# sourceMappingURL=MobileNav.css.map */

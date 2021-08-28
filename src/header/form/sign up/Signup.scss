@@ -1,0 +1,27 @@
+.signup{
+    border-radius: 50px;
+    font-family: iran;
+}
+
+.modal{
+       background-color: rgba(217, 217, 217,.6);
+       .modal-header{
+           background-color: rgba(230, 255, 230, .7);
+       }
+
+    h5{
+        font-family: iran;
+       
+    }
+    label{
+        font-family: iran;
+    }
+    
+    .modal-footer{
+        font-family: iran;
+     
+        button{
+            width: 150px
+        }
+    }
+}

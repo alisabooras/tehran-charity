@@ -1,0 +1,39 @@
+#list-todos{
+    padding: 6px;
+    font-family: iran;
+    li{
+        text-align: center;
+        margin: 10px 0;
+        border-radius:8px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        span{
+            margin: 8px 0;
+        }
+    }
+    .help-data{
+        font-size: 18px;
+        border-bottom: 1px solid grey;
+    }
+
+    .fa-times{
+        width: 18%;
+        text-align: right;
+        font-size: 22px;
+        color: tomato;
+        cursor: pointer;
+    }
+    #circle-show{
+        text-align: left;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    #hidden-name{
+        position: absolute;
+        top: 0;
+        color:#002266;
+    }
+}

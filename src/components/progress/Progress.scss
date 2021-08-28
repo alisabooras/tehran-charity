@@ -1,0 +1,144 @@
+.progress-menu{
+    background-color: rgb(153, 153, 153);
+    height: 155px;
+    padding: 30px 15px;
+    #progess-donation{
+        width: 90%;
+        #progess-donation-line{
+            width: 50%;
+        }
+    }
+    // btns
+    .btn-help1 , .btn-help2{
+        border-radius: 50px;
+        font-family: iran;
+    }
+    .btn-help2{
+        background-color: rgb(51, 102, 153);
+        color: whitesmoke;
+        margin-left: 8px;
+    }
+
+    .group-help{
+        float: right;
+        margin-top: 20px;
+        .btn-help3, .btn-help4{
+            font-family: iran;
+        }
+        .btn-help3{
+            background-color: rgb(51, 102, 153) ;
+            color: whitesmoke;
+            border-radius: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .btn-help4{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: whitesmoke;
+            color: rgb(51, 102, 153);
+        }
+    }
+}
+
+
+// break points
+@media screen and (max-width: 680px){
+    .progress-menu{
+        text-align: center;
+        padding: 6px;
+        #progess-donation{
+            width: 100%;
+        }
+        .col-sm-4{
+            width: 100%;
+            margin-top: 60px;
+        }
+        .btn{
+            font-size: 14px;
+        }
+        .group-help{
+            clear: both;
+            float: none;
+        }
+    }
+}
+
+
+// tablet
+@media screen and (min-width: 680px){
+    
+    .progress-menu{
+        padding: 6px;
+        text-align: center;
+        #progess-donation{
+            width: 100%;
+            margin-left: 100px;
+        }
+        .col-sm-4{
+            width: 100%;
+            margin-top: 60px;
+        }
+        .group-help{
+            float: none;
+        }
+    }
+}
+
+
+// laptop
+@media screen and (min-width: 680px){
+    .progress-menu{
+
+        height: 170px;
+        padding: 10px;
+        #progess-donation{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            #progess-donation-line{
+                width: 50%;
+            }
+        }
+        // btns
+        .btn-help1 , .btn-help2{
+            margin-top: 5px;
+           
+        }
+        .btn-help2{
+            margin-left:8px;
+        }
+         
+        
+        .group-help{
+            float: none;
+            margin-top: 10px;          
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .progress-menu{
+        height: 160px;
+        padding: 30px 15px;
+        #progess-donation{
+            width: 100%;
+            #progess-donation-line{
+                width: 50%;
+            }
+        }
+        // btns
+        .btn-help1 , .btn-help2{
+            margin-left:10%;
+           margin-bottom: 0;
+        }
+        .btn-help2{
+            margin-left: 5px;
+        }
+        
+        .group-help{
+            float: right;
+            margin-top: 14px;          
+        }
+    }
+}

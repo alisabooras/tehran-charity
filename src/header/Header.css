@@ -1,0 +1,126 @@
+@keyframes backChanger {
+  0% {
+    background-image: url("../pics/carousel1.jpg");
+  }
+  50% {
+    background-image: url("../pics/carousel2.jpg");
+  }
+  100% {
+    background-image: url("../pics/carousel3.jpg");
+  }
+}
+
+.background {
+  background-image: url("../pics/carousel1.jpg");
+  height: 570px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation-name: backChanger;
+  animation-duration: 25s;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.background .board h3 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: iran;
+}
+
+.background .board img {
+  max-width: 140px;
+  max-height: 140px;
+  border-radius: 100px;
+  position: absolute;
+  left: 720px;
+  top: -9px;
+}
+
+.call a {
+  border-radius: 50px;
+}
+
+.call a i {
+  color: #3366ff;
+}
+
+.call a:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #ff33ff;
+}
+
+.call a:hover i {
+  color: #ff33ff;
+}
+
+.call .btn-group button {
+  border-radius: 50px;
+}
+
+.call .btn-group .aparat {
+  width: 26px;
+}
+
+.call .btn-group .instagram {
+  width: 26px;
+}
+
+.call .btn-group button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.log {
+  margin-left: 110px;
+}
+
+@media screen and (max-width: 992px) {
+  .board {
+    background-color: rgba(102, 102, 255, 0.8);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    padding: 26px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .board h3 {
+    margin-right: 35px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .board img {
+    display: none;
+  }
+  .call {
+    text-align: center;
+    margin-top: 150px;
+  }
+  .log {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -3px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .board {
+    background-color: rgba(102, 102, 255, 0.8);
+    padding: 35px;
+    width: 850px;
+    border-bottom-right-radius: 350px;
+    border-top-right-radius: 350px;
+  }
+  .board h3 {
+    font-size: 23px;
+  }
+  .board img {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

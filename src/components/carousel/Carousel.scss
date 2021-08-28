@@ -1,0 +1,38 @@
+#carousel-1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.carousel{
+    height: 400px;
+    
+    .carousel-indicators{
+        button{
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+            background-color: rgb(242, 242, 242);
+        }       
+        button.active { background-color: rgb(0, 128, 0) }
+    }
+    img{
+        height: 400px;
+        width: 100%;
+        margin: 0;
+        background-size: cover;
+    }
+    .carousel-control-prev {
+        opacity: .1;
+    }
+     .carousel-control-next{
+        opacity: .1;
+     }
+    .carousel-control-prev:hover{
+        display: block;
+        opacity: 1;
+    }
+    .carousel-control-next:hover{
+        display: block;
+        opacity: 1;
+    }
+}

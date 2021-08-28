@@ -1,0 +1,28 @@
+#todo-form{
+    font-family: iran;
+    text-align: center;
+    font-size: 15px;
+    #fname{
+        border-radius: 8px;
+        margin: 10px 0;
+        width: 60%;
+    }
+    #sum{
+        width: 62%;
+        border-radius: 8px;
+        margin: 10px 0;
+
+    }
+    #select{
+        text-align:center;
+        margin: 10px 0;
+        width: 97%;
+        padding: 5px;
+        border: 2px solid#669999;
+    }
+   button:active{
+        background-color: blue;
+   }
+
+    
+}
