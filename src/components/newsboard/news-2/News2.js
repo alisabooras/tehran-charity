@@ -8,18 +8,18 @@ function News2() {
     return (
         <>
             <section className="news-2">
-                <span className="news-head" dir="rtl"><h4>آخرین اخبار شعب <i class="far fa-newspaper"></i></h4></span>
+                <span className="news-head" dir="rtl"><h4>آخرین اخبار شعب <i className="far fa-newspaper"></i></h4></span>
 
-            <div id="carouselCaptions2"  class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-touch="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselCaptions2"  className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-touch="true">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCaptions2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
 
-                <div class="carousel-inner">
+                <div className="carousel-inner">
 
-                     <div class="carousel-item active">
+                     <div className="carousel-item active">
                         <div className="row container-fluid">
 
                            {/* hidden in lg */}
@@ -46,7 +46,7 @@ function News2() {
                     </div>
 
                 {/* item 2 */}
-                <div class="carousel-item">
+                <div className="carousel-item">
                         <div className="row container-fluid">
                             <div className="news-text-lg-2 col-lg-6 d-none d-lg-block">
                                     <h4 dir="rtl" className="news-title d-none d-lg-block">بیماری های لااعلاج</h4>
@@ -74,7 +74,7 @@ function News2() {
 
                 {/* item 3 */}
 
-                <div class="carousel-item">
+                <div className="carousel-item">
                         <div className="row container-fluid">
                             <div className="news-text-lg-2 col-lg-6 d-none d-lg-block">
                                     <h4 dir="rtl" className="news-title d-none d-lg-block">کمک به نیازمندان</h4>

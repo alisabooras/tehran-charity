@@ -5,11 +5,14 @@ const Form = ({onAddTask}) => {
         const [fullname , setFullname] = useState('')
         const [sum , setSum] = useState('')
         const [select , setSelect] = useState('')
-        const [fillForm , setFillForm] = useState(false)
 
 
         const onSubmit = (e) => {
             e.preventDefault();
+            
+            if(!fullname) {
+                alert('لطفا نام خود را وارد کنید')
+            }
 
             onAddTask({fullname, sum, select})
             setFullname('');
@@ -21,7 +24,7 @@ const Form = ({onAddTask}) => {
             <form onSubmit={onSubmit} id="todo-form">
                 <div className="my-3" dir="rtl">
                     <label htmlFor="fname">نام و نام خانوادگی</label> <br />
-                    <input type="text" required id="fname" value={fullname} onChange={(e) => setFullname(e.target.value)} autoComplete /> 
+                    <input type="text" required id="fname" value={fullname} onChange={(e) => setFullname(e.target.value)} /> 
                 </div>
                 <div className="my-3" dir="rtl">
                     <label htmlFor="sum">مبلغ</label> <br />
@@ -31,7 +34,7 @@ const Form = ({onAddTask}) => {
                 <div className="my-3" dir="rtl">
                     <label htmlFor="select">کمک به:</label> <br />
                     <select id="select" required value={select} onChange={(e) => setSelect(e.currentTarget.value)} > 
-                        <option value="" disabled selected hidden>--انتخاب کنید--</option>
+                        <option value="" disabled defaultValue hidden>--انتخاب کنید--</option>
                         <option value="کودکان کار">کودکان کار</option>
                         <option value="بیماران کرونایی">بیماران کرونایی</option>
                         <option value="بیماران دارای بیماری های نادر">بیماران دارای بیماری نادر</option>

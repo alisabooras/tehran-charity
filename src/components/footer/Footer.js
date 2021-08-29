@@ -28,8 +28,8 @@ function Footer() {
                                     <a target="_blank" href="http://www.imam-khomeini.ir/" className="list-group-item">پرتال پژوهشی و اطلاع رسانی موسسه تنظیم</a>
                                     <a target="_blank" href="http://www.imam-khomeini.ir/" className="list-group-item">ونشر آثار امام خمینی(ره)</a>
                                     <a target="_blank" href="https://www.president.ir/fa/" className="list-group-item">ریاست جمهوری اسلامی ایران</a>
-                                    <a target="_blank" href="http://www.parliran.ir/" class="list-group-item">مجلس شورای اسلامی ایران</a>
-                                    <a target="_blank" href="https://www.irib.ir/" class="list-group-item">سازمان صدا و سیما</a>
+                                    <a target="_blank" href="http://www.parliran.ir/" className="list-group-item">مجلس شورای اسلامی ایران</a>
+                                    <a target="_blank" href="https://www.irib.ir/" className="list-group-item">سازمان صدا و سیما</a>
                                     <a target="_blank" href="https://www.tehran.ir/default.aspx" className="list-group-item">شهرداری تهران</a>
                                     <a target="_blank" href="https://www.icro.ir" className="list-group-item">سازمان فرهنگ و ارتباطات اسلامی</a>
                                 </ul>

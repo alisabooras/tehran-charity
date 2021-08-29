@@ -13,7 +13,7 @@ function Login() {
                 ورود
             </button>
 
-            <div className="modal fade" id="modalLogin" tabindex="-1" aria-hidden="true" dir="rtl">
+            <div className="modal fade" id="modalLogin" tabIndex="-1" aria-hidden="true" dir="rtl">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header modal-2">
@@ -24,15 +24,15 @@ function Login() {
                             <form onSubmit={handleSubmit}>
                                 <div className="mb-3">
                                     <label className="form-label" htmlFor="user">ایمیل خود را وارد کنید</label>
-                                    <input dir="ltr" type="email" className="form-control" id="user" name="user" placeholder="...@gmail.com" autoComplete required />
+                                    <input dir="ltr" type="email" className="form-control" id="user" name="user" placeholder="...@gmail.com" required />
                                 </div>
                                 <div className="mb-3">
                                     <label className="form-label" htmlFor="pass">پسورد خود را وارد کنید</label>
-                                    <input dir="ltr" type="password" className="form-control" id="pass" name="password" placeholder="" autoComplete required/>
+                                    <input dir="ltr" type="password" className="form-control" id="pass" name="password" placeholder="" required/>
                                 </div>
                                 <div className="mb-3 form-check">
                                     <input type="checkbox" className="form-check-input" id="rememberMe" />
-                                    <label className="form-check-label" for="rememberMe" htmlFor="rememberMe">ذخیره مشخصات</label>
+                                    <label className="form-check-label"  htmlFor="rememberMe">ذخیره مشخصات</label>
                                 </div>
                                 <div className="modal-footer">
                                     <button type="submit" className="btn btn-warning">ورود</button>

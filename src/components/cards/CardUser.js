@@ -16,59 +16,59 @@ const CardUser = () => {
 
             {/* card flex */}
             <div className="flexuser-card">
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">خدمات پزشکی</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">خدمات پزشکی</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">مصالح ساختمانی</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">مصالح ساختمانی</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">پیمانکاری</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">پیمانکاری</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">ملک</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">ملک</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">ملک</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">ملک</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">خدمات پزشکی</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">خدمات پزشکی</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">خدمات پزشکی</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">خدمات پزشکی</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <img src={avatar} class="card-img-top img-fluid" alt="user" />
-                        <div class="card-body text-center">
-                             <a href="#" class="btn p-2">پیمانکاری</a>
+                    <div className="card">
+                        <img src={avatar} className="card-img-top img-fluid" alt="user" />
+                        <div className="card-body text-center">
+                             <a href="#" className="btn p-2">پیمانکاری</a>
                         </div>
                     </div>
 

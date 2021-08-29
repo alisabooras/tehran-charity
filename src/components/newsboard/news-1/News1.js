@@ -9,17 +9,17 @@ function News1() {
     return (
         <>
             <section className="news-1">
-                        <span className="news-head" dir="rtl"><h4>آخرین اخبار مجمع <i class="far fa-newspaper"></i></h4></span>
+                        <span className="news-head" dir="rtl"><h4>آخرین اخبار مجمع <i className="far fa-newspaper"></i></h4></span>
 
-                        <div id="carouselCaptions"  class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-touch="true">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <div id="carouselCaptions"  className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-touch="true">
+                            <div className="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
 
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
                                     <div className="row container-fluid">
                                         <div className="col-lg-6">
                                             <img src={picslider} alt="slider" className="img-fluid img-thumbnail" />
@@ -37,7 +37,7 @@ function News1() {
 
                             {/* item 2 */}
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                     <div className="row container-fluid">
                                         <div className="col-lg-6">
                                             <img src={news2} alt="slider" className="img-fluid img-thumbnail" />
@@ -54,7 +54,7 @@ function News1() {
                                 </div>
                             {/* item 3 */}
 
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                     <div className="row container-fluid">
                                         <div className="col-lg-6">
                                             <img src={news3} alt="slider" className="img-fluid img-thumbnail" />

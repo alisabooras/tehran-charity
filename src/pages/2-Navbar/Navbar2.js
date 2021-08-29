@@ -16,7 +16,7 @@ function Navbar2() {
              <nav className="navbar navbar-expand-md" id="navbar2">
                     <Link to="/" className="navbar-brand d-none d-lg-block"><img src={brand} alt="logo" /></Link>
                     <button onClick={handleToggle} className={`navbar-toggler ${isActive ? "text-danger" : "text-light"}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i className={isActive ? "fas fa-times text-danger" : "fas fa-bars"}></i></span>
+                        <span className="navbar-toggler-icon"><i className={isActive ? "fas fa-times text-danger" : "fas fa-bars"}></i></span>
                     </button>
 
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -58,7 +58,7 @@ function Navbar2() {
                                 <ul className="dropdown-menu nav-hover">
                                         <li> <NavLink className="dropdown-item"  activeClassName="active" to='/photos' >تصاویر</NavLink></li> 
                                             <hr  className="d-block d-md-none" />
-                                        <li><NavLink className="dropdown-item" activeClassName="active" to="/videos">ویدیوها</NavLink></li> 
+                                        <li><a className="dropdown-item" href="#">ویدیوها</a></li> 
                                 </ul>
                             </li>
 

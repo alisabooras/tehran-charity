@@ -8,7 +8,7 @@ function Infoboard() {
             <section className="infoboard">
             <br />
                 <div id="board-show">
-                    <div class="progress" id="progress-show">
+                    <div className="progress" id="progress-show">
                         <div className="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div className="num-title">

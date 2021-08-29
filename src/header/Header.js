@@ -19,10 +19,10 @@ function Header() {
             </section>
             
             <section className="call my-lg-4 mx-lg-3">
-                <a href="tel:0217149000" className="btn btn-light"><i class="fas fa-phone-alt"></i> 17149000</a>
-                <div class="btn-group mx-3" role="group">
-                    <a href="#" class="btn btn-light" title="aparat"><img className="aparat" src={aparat} alt="aparat"/></a>
-                    <a href="https://www.instagram.com/majma_khayerin_salamat" target="_blank" class="btn btn-light" title="instagram"><img className="instagram" src={instagram} alt="instagram"/></a>
+                <a href="tel:0217149000" className="btn btn-light"><i className="fas fa-phone-alt"></i> 17149000</a>
+                <div className="btn-group mx-3" role="group">
+                    <a href="#" className="btn btn-light" title="aparat"><img className="aparat" src={aparat} alt="aparat"/></a>
+                    <a href="https://www.instagram.com/majma_khayerin_salamat" target="_blank" className="btn btn-light" title="instagram"><img className="instagram" src={instagram} alt="instagram"/></a>
                 </div>
             </section>
             
